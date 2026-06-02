@@ -23,6 +23,10 @@ echo "[1/6] Updating package lists..."
 apt update -y 
 apt upgrade -y
 
+# 3. Install ssh server + btop
+apt install openssh-server
+apt install btop
+
 # 3. Install Brave Browser
 echo "[2/6] Installing Brave Browser Origin for minimal bloat..."
 curl -fsS https://dl.brave.com/install.sh | FLAVOR=origin CHANNEL=nightly sh
