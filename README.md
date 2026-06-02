@@ -1,5 +1,5 @@
 What does scipt do :
-
+1) install open ssh server and btop for monitoring
 1) install Brave Origin for minimal bloat
 2) install nvidia drivers and toolkit needed for transcoding
 3) install docker engine ect
