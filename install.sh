@@ -26,6 +26,7 @@ apt upgrade -y
 # 3. Install ssh server + btop
 apt install openssh-server
 apt install btop
+systemctl restart ssh
 
 # 3. Install Brave Browser
 echo "[2/6] Installing Brave Browser Origin for minimal bloat..."
